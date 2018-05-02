@@ -6,13 +6,19 @@
 
 		<!-- Application resource dictionary -->
         <ResourceDictionary>
-            <style TargetType="Button">
+            <Style TargetType="Button">
                 <Setter Property="FontSize"/>
                 <Setter Property="Margin" Value="10"/>
                 <Setter Property="BackgroundColor" Value="BlueViolet"/>
                 <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
                 <Setter Property="TextColor" Value="White"/>
-            </style>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="FontAttributes" Value="Bold,Italic"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            </Style>
         </ResourceDictionary>
 
 	</Application.Resources>

@@ -8,8 +8,9 @@
     <StackLayout>
         <Label Text="Esta es una pagina de navegación" ></Label>
 
-        <Button x:Name="btnPagina1"
+        <Button  x:Name="btnPagina1"
                 WidthRequest="300"
+                 
                 HeightRequest="300"
                 Text="Esto es Navigation Page ir a pag. 2">
         </Button>
