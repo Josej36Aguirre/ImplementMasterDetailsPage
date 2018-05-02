@@ -14,7 +14,7 @@ namespace DemoNavigationPage
 			InitializeComponent();
 
 			var navigationPage = new NavigationPage(new MainPage());
-             navigationPage.BackgroundColor = Color.Black;
+            navigationPage.BarBackgroundColor = Color.Black;
             navigationPage.BarTextColor = Color.White;
             MainPage = navigationPage;
 		}
